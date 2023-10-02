@@ -1,0 +1,90 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: boder-box;
+}
+body{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000;
+}
+.log-items{
+  background-color: #fff;
+  width: 380px;
+  height: 500px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px #EFF2F9;
+}
+.logo{
+  position: absolute;
+  left: 120px;
+  top: 50px;
+  color: #000;
+  font-weight: Bold;
+}
+.input-filds{
+  position: absolute;
+  top: 100px;
+  left: px;
+  margin: 20px;
+}
+i{
+  width: 20px;
+  height: 50px;
+  position: relative;
+  left: 35px;
+  z-index: 2;
+}
+input{
+  position: relative;
+  width: 260px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid #B5BFC6;
+  padding-left: 30px;
+}
+::placeholder{
+  color: #B5BFC6;
+}
+button{
+  position: relative;
+  top:10px;
+  left: 100px;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: dodgerblue;
+}
+pre{
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
+.social{
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 60px;
+  padding-left: 10px;
+}
+.fa-brands{
+  border: none;
+  justify-items: center;
+  text-align: center;
+  height: 30px;
+  width: 130px;
+  padding-top: 5px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  padding-top: 15px;
+}
